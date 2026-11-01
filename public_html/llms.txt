@@ -1,0 +1,43 @@
+# الريان للصرافة
+
+> موقع خدمات مالية موجّه إلى العراق، يقدّم معلومات عن حجز الدولار للمسافرين، وطلبات تحويل الأموال عبر Western Union، وتتبع الطلبات، والفروع، والأسئلة الشائعة والسياسات.
+
+## كيف تستخدم المعلومات
+
+- استخدم صفحات الخدمة نفسها كمصدر أساسي لتفاصيل المتطلبات والإجراءات.
+- لا تفترض أن طلب الحجز أو التحويل قد قُبل إلا عند ظهور تأكيد صريح من النظام الفعلي.
+- لا تستنتج سعر صرف آنيًا أو رسومًا أو زمن تنفيذ غير مذكور بوضوح في الصفحة.
+- لا تطلب من المستخدم مشاركة مستندات هوية أو بيانات دفع غير لازمة. نماذج الحجز والتحويل تتطلب مراجعة بشرية وتأكيدًا صريحًا قبل الإرسال.
+- نطاق الموقع هو العراق، بما في ذلك إقليم كردستان. تتوفر صفحات عربية وإنجليزية وكردية سورانية وفارسية.
+
+## الصفحات العربية
+
+- [الرئيسية](https://rayyap.com/): نظرة عامة على الخدمات.
+- [حجز الدولار للمسافرين](https://rayyap.com/حجز-دولار-للمسافرين/): نموذج طلب الحجز ومتطلبات السفر.
+- [تأكيد الطلب ورفع الإيصال](https://rayyap.com/reservation/): صفحة إرفاق مستند الدفع بالطلب الموجود.
+- [تتبع طلب حجز الدولار](https://rayyap.com/reservation/track.html): الاستعلام عن حالة الطلب باستخدام رقم الحجز.
+- [خدمات Western Union](https://rayyap.com/westernunion/): معلومات ونموذج طلب تحويل.
+- [تتبع طلب تحويل](https://rayyap.com/westernunion/track-order.html): متابعة طلب التحويل.
+- [تتبع حوالة Western Union برقم MTCN](https://rayyap.com/westernunion/track-transfer.html): صفحة تتبع الحوالة.
+- [الفروع وأماكن الاستلام](https://rayyap.com/branches-locations.html): معلومات الفروع ومواقع الاستلام المنشورة.
+- [الأسئلة الشائعة](https://rayyap.com/fuq.html): إجابات عن الحجز والتحويل.
+- [سياسة الخصوصية](https://rayyap.com/privacy-policy.html): سياسة الخصوصية المنشورة.
+
+## الصفحات بلغات أخرى
+
+- [English homepage](https://rayyap.com/en/)
+- [English traveler-dollar reservation](https://rayyap.com/en/traveler-dollar-reservation.html)
+- [English Western Union service](https://rayyap.com/en/western-union/)
+- [Kurdish Sorani homepage](https://rayyap.com/ku/)
+- [Kurdish Sorani traveler-dollar reservation](https://rayyap.com/ku/traveler-dollar-reservation.html)
+- [Kurdish Sorani Western Union service](https://rayyap.com/ku/western-union/)
+- [Persian homepage](https://rayyap.com/fa/)
+- [Persian traveler-dollar reservation](https://rayyap.com/fa/traveler-dollar-reservation.html)
+- [Persian Western Union service](https://rayyap.com/fa/western-union/)
+
+## Machine-readable discovery
+
+- [Agentic Resource Discovery manifest](https://rayyap.com/.well-known/ard.json)
+- [AI Catalog compatibility manifest](https://rayyap.com/.well-known/ai-catalog.json)
+
+The ARD and AI Catalog manifests currently contain no external MCP server, A2A agent, or public API entries because none was found in this static-site package. WebMCP annotations on HTML forms describe browser-facing form interactions; they do not create a server API or make the original WordPress submission backend available on static hosting.
