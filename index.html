@@ -89,9 +89,39 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 }
 
 .elementor-20 .elementor-element.elementor-element-7ce4c63:not(.elementor-motion-effects-element-type-background), .elementor-20 .elementor-element.elementor-element-7ce4c63 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
-    background-image: url("/wp-content/uploads/2024/1.jpg");
+    background-image: none !important;
     background-position: center right;
     background-repeat: no-repeat;
+}
+
+/* LCP experiment: expose the hero artwork as an eager HTML image while
+   reproducing the previous native-size, right-aligned, vertically centered CSS background. */
+#hero-banner {
+    position: relative;
+    isolation: isolate;
+}
+#hero-banner > .hero-lcp-media {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+#hero-banner > .hero-lcp-media > img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: block;
+    width: 720px;
+    height: 1192px;
+    max-width: none;
+    max-height: none;
+    object-fit: fill;
+    transform: translateY(-50%);
+}
+#hero-banner > .e-con-inner {
+    position: relative;
+    z-index: 1;
 }
 
 .elementor-20 .elementor-element.elementor-element-7ce4c63, .elementor-20 .elementor-element.elementor-element-7ce4c63::before {
@@ -640,6 +670,7 @@ border-color: rgba(129, 129, 129, 0.2);border-bottom-width: 1px;border-bottom-st
 <div class="entry-content">
 <div class="elementor elementor-20" data-elementor-id="20" data-elementor-type="wp-page">
 <div class="wd-negative-gap elementor-element elementor-element-7ce4c63 wd-section-stretch e-flex e-con-boxed e-con e-parent" data-element_type="container" data-id="7ce4c63" data-settings='{"background_background":"classic"}' id="hero-banner">
+<div class="hero-lcp-media" aria-hidden="true"><img src="/wp-content/uploads/2024/1.jpg" width="720" height="1192" alt="" role="presentation" loading="eager" fetchpriority="high"></div>
 <div class="e-con-inner">
 <div class="elementor-element elementor-element-61bdaca e-con-full e-flex e-con e-child" data-element_type="container" data-id="61bdaca">
 </div>
