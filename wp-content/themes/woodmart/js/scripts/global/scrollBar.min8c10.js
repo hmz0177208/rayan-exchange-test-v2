@@ -1,17 +1,1 @@
-(function(){
-  var root=document.documentElement;
-  var scheduled=false;
-  var observer=new MutationObserver(function(){
-    if(scheduled)return;
-    scheduled=true;
-    requestAnimationFrame(function(){
-      scheduled=false;
-      if(window.innerWidth>root.offsetWidth){
-        root.classList.add("wd-scrollbar");
-        observer.disconnect();
-      }
-    });
-  });
-  window.addEventListener("load",function(){observer.disconnect();},{once:true});
-  observer.observe(root,{childList:true,subtree:true});
-})();
+var observer=new MutationObserver(()=>{window.innerWidth>document.getElementsByTagName("html")[0].offsetWidth&&(document.getElementsByTagName("html")[0].className+=" wd-scrollbar",observer.disconnect())});window.addEventListener("load",function(){observer.disconnect()}),observer.observe(document.getElementsByTagName("html")[0],{childList:!0,subtree:!0});
