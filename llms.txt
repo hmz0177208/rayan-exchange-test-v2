@@ -41,3 +41,8 @@
 - [AI Catalog compatibility manifest](https://rayyap.com/.well-known/ai-catalog.json)
 
 The ARD and AI Catalog manifests currently contain no external MCP server, A2A agent, or public API entries because none was found in this static-site package. WebMCP annotations on HTML forms describe browser-facing form interactions; they do not create a server API or make the original WordPress submission backend available on static hosting.
+
+- [حاسبة تحويل العملات](https://rayyap.com/currency-converter.html): تحويل بين العملات مع أولوية أسعار الشراء والبيع المنشورة من البنك المركزي العراقي، واستخدام أسعار عالمية استرشادية للعملات غير المدرجة.
+- [Currency Converter](https://rayyap.com/en/currency-converter.html): Multi-currency calculator prioritizing the Central Bank of Iraq bulletin.
+- [ژمێریاری دراو](https://rayyap.com/ku/currency-converter.html): گۆڕینی دراو بە پشتبەستن بە بڵاوکراوەی بانکی ناوەندی عێراق.
+- [مبدل ارز](https://rayyap.com/fa/currency-converter.html): تبدیل ارز با اولویت نرخ‌های منتشرشده از بانک مرکزی عراق.

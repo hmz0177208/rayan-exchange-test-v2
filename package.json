@@ -1,0 +1,11 @@
+{
+  "name": "al-rayyan-currency-converter",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}

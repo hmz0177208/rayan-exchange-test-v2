@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "functions": {
+    "api/currency-rates.js": {
+      "maxDuration": 15
+    }
+  },
+  "headers": [
+    {
+      "source": "/api/currency-rates.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, s-maxage=900, stale-while-revalidate=1800"
+        }
+      ]
+    }
+  ]
+}

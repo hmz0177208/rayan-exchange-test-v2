@@ -1,0 +1,69 @@
+/* Al Rayyan currency converter — isolated component styles */
+.rayyan-currency-main { padding: 28px 0 60px; }
+.rayyan-currency-page { width: 100%; color: #26374a; }
+.rayyan-currency-inner { max-width: 1120px; margin: 0 auto; }
+.rayyan-currency-intro { max-width: 900px; margin: 0 auto 28px; text-align: center; }
+.rayyan-currency-eyebrow { display: inline-block; margin: 0 0 10px; padding: 6px 13px; border-radius: 999px; background: #e9f5f1; color: #08765e; font-size: 13px; font-weight: 700; }
+.rayyan-currency-intro h1 { margin: 0 0 12px; color: #26374a; font-size: clamp(28px, 4vw, 42px); line-height: 1.35; font-weight: 800; }
+.rayyan-currency-intro > p:last-child { margin: 0 auto; max-width: 840px; color: #5c6878; font-size: 16px; line-height: 1.9; }
+.rayyan-currency-card { background: #fff; border: 1px solid #e5eaf0; border-radius: 18px; padding: clamp(18px, 3vw, 32px); box-shadow: 0 12px 36px rgba(29,52,76,.08); }
+.rayyan-currency-card-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
+.rayyan-currency-card-head h2 { margin: 0 0 4px; font-size: 22px; color: #26374a; font-weight: 800; }
+.rayyan-currency-subhead { margin: 0; color: #718096; font-size: 13px; }
+.rayyan-currency-refresh { border: 1px solid #0a8f6e; border-radius: 8px; background: #fff; color: #08765e; padding: 10px 14px; font: inherit; font-size: 13px; font-weight: 700; cursor: pointer; white-space: nowrap; }
+.rayyan-currency-refresh:hover { background: #eff8f5; }
+.rayyan-currency-rate-toggle { display: inline-flex; gap: 4px; padding: 4px; margin-bottom: 20px; border-radius: 10px; background: #f1f5f7; }
+.rayyan-currency-rate-toggle button { min-width: 118px; border: 0; border-radius: 7px; padding: 9px 15px; background: transparent; color: #59697a; font: inherit; font-weight: 700; cursor: pointer; }
+.rayyan-currency-rate-toggle button.is-active { background: #0a8f6e; color: #fff; box-shadow: 0 3px 10px rgba(10,143,110,.18); }
+.rayyan-currency-field-grid { display: grid; grid-template-columns: minmax(0,1fr) 56px minmax(0,1fr); align-items: stretch; gap: 14px; }
+.rayyan-currency-field { min-width: 0; padding: 18px; border: 1px solid #e2e8ef; border-radius: 12px; background: #fbfcfd; }
+.rayyan-currency-field > label { display: block; color: #68788a; font-size: 13px; font-weight: 700; margin-bottom: 9px; }
+.rayyan-currency-field input, .rayyan-currency-field select { display: block; width: 100%; min-width: 0; height: 48px; border: 1px solid #d8e0e8; border-radius: 8px; padding: 0 12px; background: #fff; color: #26374a; font: inherit; font-size: 16px; }
+.rayyan-currency-field input { font-size: 23px; font-weight: 800; direction: ltr; text-align: start; }
+.rayyan-currency-field select { margin-top: 0; font-size: 14px; }
+.rayyan-currency-code-label { margin-top: 14px; }
+.rayyan-currency-output { display: flex; align-items: center; min-height: 48px; overflow-wrap: anywhere; color: #08765e; font-size: clamp(22px, 3vw, 30px); font-weight: 800; direction: ltr; text-align: start; }
+.rayyan-currency-result-field { border-color: #cce8df; background: #f7fcfa; }
+.rayyan-currency-swap-wrap { display: flex; align-items: center; justify-content: center; }
+.rayyan-currency-swap { width: 44px; height: 44px; border: 1px solid #cddbd7; border-radius: 50%; background: #fff; color: #0a8f6e; font-size: 25px; line-height: 1; cursor: pointer; }
+.rayyan-currency-swap:hover { background: #eff8f5; }
+.rayyan-currency-rate-summary { margin-top: 18px; padding: 14px 16px; border-radius: 10px; background: #f4f7fa; }
+.rayyan-currency-rate-line { margin: 0 0 5px; font-weight: 800; color: #26374a; direction: ltr; text-align: start; }
+.rayyan-currency-source-line { margin: 0; color: #627286; font-size: 13px; line-height: 1.7; }
+.rayyan-currency-meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 14px; }
+.rayyan-currency-meta-grid > div { display: flex; flex-direction: column; gap: 4px; }
+.rayyan-currency-meta-grid span { color: #718096; font-size: 12px; }
+.rayyan-currency-meta-grid strong { color: #26374a; font-size: 13px; font-weight: 700; }
+.rayyan-currency-status { min-height: 20px; margin: 12px 0 0; color: #718096; font-size: 12px; line-height: 1.7; }
+.rayyan-currency-status.is-error { color: #b42318; }
+.rayyan-currency-rates-section, .rayyan-currency-explainer, .rayyan-currency-faq { margin-top: 38px; }
+.rayyan-currency-section-heading { margin-bottom: 14px; }
+.rayyan-currency-section-heading h2, .rayyan-currency-explainer h2, .rayyan-currency-faq h2 { margin: 0 0 8px; color: #26374a; font-size: 23px; line-height: 1.5; font-weight: 800; }
+.rayyan-currency-section-heading p, .rayyan-currency-explainer > p { margin: 0; color: #647386; line-height: 1.9; }
+.rayyan-currency-scroll-hint { margin: 7px 0 0 !important; color: #718096 !important; font-size: 12px !important; line-height: 1.7; }
+.rayyan-currency-table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid #e5eaf0; border-radius: 12px; background: #fff; }
+.rayyan-currency-table { width: 100%; min-width: 560px; border-collapse: collapse; text-align: start; }
+.rayyan-currency-table th, .rayyan-currency-table td { padding: 12px 15px; border-bottom: 1px solid #edf1f4; font-size: 14px; }
+.rayyan-currency-table th { background: #f4f7f8; color: #34495e; font-weight: 800; }
+.rayyan-currency-table td { color: #394b5e; }
+.rayyan-currency-table tr:last-child td { border-bottom: 0; }
+.rayyan-currency-table td:nth-child(2), .rayyan-currency-table td:nth-child(3), .rayyan-currency-table td:nth-child(4) { direction: ltr; text-align: start; font-variant-numeric: tabular-nums; }
+.rayyan-currency-faq details { margin: 9px 0; border: 1px solid #e4eaf0; border-radius: 10px; background: #fff; }
+.rayyan-currency-faq summary { padding: 14px 16px; color: #26374a; font-weight: 700; cursor: pointer; }
+.rayyan-currency-faq details p { margin: 0; padding: 0 16px 15px; color: #627286; line-height: 1.85; }
+.rayyan-currency-disclaimer { margin: 28px 0 10px; padding: 13px 15px; border-inline-start: 3px solid #d69a36; background: #fffaf0; color: #6b5b3c; font-size: 13px; line-height: 1.9; }
+.rayyan-currency-attribution, .rayyan-currency-official-source { margin: 7px 0; color: #718096; font-size: 12px; line-height: 1.7; }
+.rayyan-currency-attribution a, .rayyan-currency-official-source a { color: #08765e; text-decoration: underline; }
+@media (max-width: 767px) {
+  .rayyan-currency-main { padding: 18px 0 42px; }
+  .rayyan-currency-card-head { align-items: flex-start; flex-direction: column; }
+  .rayyan-currency-refresh { width: 100%; }
+  .rayyan-currency-field-grid { grid-template-columns: minmax(0,1fr); gap: 8px; }
+  .rayyan-currency-swap-wrap { padding: 1px 0; }
+  .rayyan-currency-swap { transform: rotate(90deg); }
+  .rayyan-currency-meta-grid { grid-template-columns: 1fr; }
+  .rayyan-currency-rate-toggle { display: flex; width: 100%; }
+  .rayyan-currency-rate-toggle button { flex: 1; min-width: 0; }
+  .rayyan-currency-intro > p:last-child { font-size: 14px; }
+  .rayyan-currency-section-heading h2, .rayyan-currency-explainer h2, .rayyan-currency-faq h2 { font-size: 20px; }
+}
