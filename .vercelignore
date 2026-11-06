@@ -1,0 +1,3 @@
+# Hostinger-only PHP code; Vercel uses the Node.js function in /api.
+hostinger-api/
+cron/

@@ -84,7 +84,7 @@
   async function loadData(showLoading=true) {
     if (showLoading) { status.textContent = copy.loading; status.classList.remove('is-error'); }
     const config = window.RAYYAN_CURRENCY_CONFIG || {};
-    const api = config.apiEndpoint || '/api/currency-rates.js';
+    const api = config.apiEndpoint || '/api/currency-rates';
     const snapshot = config.snapshotEndpoint || '/data/currency-rates.json';
     try {
       dataset = await fetchData(api);

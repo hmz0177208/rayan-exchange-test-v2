@@ -7,7 +7,7 @@
   },
   "headers": [
     {
-      "source": "/api/currency-rates.js",
+      "source": "/api/currency-rates",
       "headers": [
         {
           "key": "Cache-Control",
